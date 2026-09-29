@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#hero{
+    background-image: url(../images/img\ bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    color: aqua;
+    padding: 10px 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    color: black;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.cards{
+
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.card{
+    
+    border-radius: 15px;
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 255, 0.532) , rgba(255, 0, 0, 0.576));
+    width: 300px;
+}
+img{
+    height: 300px;
+    border-radius: 15px;
+    width: 100%;
+}
+button{
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.696) , rgba(255, 255, 255, 0.738) , rgba(0, 0, 0, 0.747));
+    width: 100%;
+}
+h1{
+    color: rgb(229, 157, 14);
+}
+p{
+    color: white;
+}
+h2{
+    color: white;
+}
+.card:hover{
+    background: linear-gradient(rgba(255, 0, 0, 0.591) , rgba(0, 0, 255, 0.572));
+}
+button:hover{
+    background: linear-gradient(rgba(255, 255, 255, 0.75) , rgba(0, 0, 0, 0.663), rgba(255, 255, 255, 0.746));
+    color: white;
+}
